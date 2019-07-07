@@ -19,6 +19,7 @@
 
     .a {
       background: #0d9;
+
     }
 
     .b {
@@ -45,9 +46,20 @@
     /* Your code starts here */
     /* CODE AREA */
 
-    .container {}
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 10px;
+    }
 
-    .a {}
+    .a {
+        
+        grid-row: 2/4;
+        grid-column: 2/3;
+        height: 38px;
+      
+    }
 
     /* END CODE AREA */
   </style>
